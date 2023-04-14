@@ -1,6 +1,3 @@
-$(document).ready(function () {
-    $('#stock').DataTable();
-});
 
 //Empezaremos definiendo las variables.
 var nombre = document.getElementById('nombreUsuario');

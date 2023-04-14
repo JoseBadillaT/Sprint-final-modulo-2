@@ -93,7 +93,8 @@
 
         .td{
         color: rgb(20, 20, 63);
-        }   
+        }
+   
         
 
 
@@ -102,12 +103,22 @@
     .color{
         background-color: #cfe2ff;
     }
-  
-    .carousel-control-prev-icon, .carousel-control-next-icon {
-        filter: invert(108%);
-    }
+    .gradient-custom {
+        /* fallback for old browsers */
+        background: #6a11cb;
+        
+        /* Chrome 10-25, Safari 5.1-6 */
+        background-color: #cfe2ff;
+        
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background-color: #cfe2ff;
+        }
+        .carousel-control-prev-icon, .carousel-control-next-icon {
+            filter: invert(108%);
+        }
+        
+        .carrusel {
+            width: 80%;
+            margin: auto;        
+        }   
     
-    .carrusel {
-        width: 80%;
-        margin: auto;        
-    }
