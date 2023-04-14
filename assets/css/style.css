@@ -94,6 +94,7 @@
         .td{
         color: rgb(20, 20, 63);
         }   
+        
 
 
     }
@@ -101,6 +102,7 @@
     .color{
         background-color: #cfe2ff;
     }
+<<<<<<< HEAD
     .gradient-custom {
         /* fallback for old browsers */
         background: #6a11cb;
@@ -111,3 +113,14 @@
         /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
         }
+=======
+  
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        filter: invert(108%);
+    }
+    
+    .carrusel {
+        width: 80%;
+        margin: auto;        
+    }
+>>>>>>> master
