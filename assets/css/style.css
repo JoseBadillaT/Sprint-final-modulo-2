@@ -1,5 +1,9 @@
+body{
+    font-family: 'Neucha', cursive;
+    font-size: 16px;
+}    
     
-    @media screen and ( max-width: 768px){
+  @media screen and ( max-width: 768px){
         .col{
             width: 400px;
             height: 50%;

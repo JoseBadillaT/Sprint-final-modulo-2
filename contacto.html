@@ -12,6 +12,9 @@
   <meta name="keywords" content="venta en línea, comercio electrónico, Contacto" />
   <title>Contacto</title>
   <!--Le entregamos un nombre a una de las páginas que se encuentran indexadas al archivo principal -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Neucha&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous" />
   <!--Le entregamos el link de bootstrap-->
@@ -23,13 +26,14 @@
 <body class="bg-primary-subtle">
 <!--Comenzamos a dar formato a la cabecera-->
   <header class="header">
-    <div class="logo_img d-flex justify-content-center align-items-center">
+    <div class="logo_img d-flex justify-content-center">
         <img class="img-fluid" src="assets/img/te_vendo.png" alt="imagen te lo vendo">
     </div>
-        <h1 class="d-flex justify-content-center align-items-center">Formulario de Contacto:</h1>
+    <h1 class="d-flex justify-content-center text-bg-primary">Venta de productos tecnológicos, a un sólo
+      click de distancia</h1>
   </header>
 <!--Iniciamos nuestra grilla de construcción para darle formato a la barra de navegación-->
-  <div class="container">
+  <div class="container mb-3">
     <nav class="navbar navbar-expand-lg  bg-primary ">
       <div class="container-fluid">
         <a class="nav-link active text-white" aria-current="page" href="index.html" target="_self">Inicio</a>
@@ -55,7 +59,8 @@
   </div>
 <!--Se envuelve el contenido principal de la página y se sub-crea un container con los ítems del formulario de contacto-->
   <main>
-    <div class="container">
+    <div class="container pyd-xs-flex">
+      <h2 class="d-flex justify-content-xxl-start align-items-center">Formulario de Contacto</h2>
       <form action="" method="post" id="form">
         <div class="mb-3">
           <label for="nombreUsuario" class="form-label">Nombre Usuario:</label>
@@ -67,7 +72,7 @@
           <input type="email" class="form-control" id="emailAddress" placeholder="Ingrese su e-mail" />
         </div>
 
-        <div class="mb-3">
+        <div class="mb-5">
           <label for="comentary" class="form-label">Comentarios:</label>
           <textarea class="form-control" exampleFormControlTextarea1 id="comentary" rows="3"></textarea>
         </div>
@@ -78,8 +83,8 @@
 <!--cierre del contenido principal-->
   </main>
 <!--se agrega un footer-->
-  <footer class="d-flex justify-content-center align-items-center py-5">
-    <p>Te lo vendo &copy; 2023</p>
+  <footer class="d-flex justify-content-center align-items-center">
+    <p class="padding-xxl-0">Te lo vendo &copy; 2023</p>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
@@ -88,5 +93,6 @@
   <!--Se vincula a archivo JavaScript-->
   <script defer src="assets/js/funciones.js"></script>
 </body>
-<!--Cerramos el cuerpo de nuestra página-->
+<!--Cerramos el body-->
 </html>
+<!--Cierre de etiqueta html-->
