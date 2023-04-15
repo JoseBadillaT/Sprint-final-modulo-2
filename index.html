@@ -13,17 +13,15 @@
 	<meta name="keywords" content="venta en línea, comercio electrónico">
 	<!-- Título de la página-->
 	<title>Te lo vendo</title>
+	 <!--Le entregamos un nombre a una de las páginas que se encuentran indexadas al archivo principal -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
 		integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
-
 	<link href="assets/css/style.css" rel="stylesheet" />
 </head>
 
 <!--Cuerpo de la página-->
-<div class="container">
-
-	<body class="bg-primary-subtle">
-		<!-- <div class="container"></div> -->
+	<div class="container">
+		<body class="bg-primary-subtle">
 		<header class="header">
 			<div class="logo_img d-flex justify-content-center align-items-center">
 				<img class="img-fluid" src="assets/img/te_vendo.png" alt="imagen te lo vendo">
@@ -59,11 +57,12 @@
 			</nav>
 		</div>
 			
+
+		<!--se establece contenido principal-->
 		<main>
 			<!--Sección de la página-->
-			<!-- <div class="container"></div> -->
 			<section class="container2">
-				<!--Etiqueta de párrafo-->
+				<!--se establece título y párrafo-->
 				<h2 class="d-flex justify-content-center align-items-center py-3">Nuestra tienda</h2>
 				<p>
 					La empresa Te lo Vendo es un emprendimiento de un grupo de jóvenes en
@@ -82,52 +81,54 @@
 				</p>
 			</section>
 			
-
+			<!--establecemos un container para posteriormente incorporar carrusel-->
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-12">
-						<!--AGREGAMOS CARRUSEL PARA LA GALERÍA DE IMÁGENES-->
-						<div id="carouselExample" class="carousel slide carrusel">
-							<div class="carousel-inner">
-						<!--"ACTIVE", ES LA CLASE CON LA QUE QUEREMOS EMPEZAR EL CARRUSEL-->
-							<div class="carousel-item active">
-								<img src="assets/img/desktop.jpg" class="d-block w-100" alt="Desktop">
-							</div>
-
-							<div class="carousel-item">
-								<img src="assets/img/ssd m2.jpg" class="d-block w-100" alt="SSD" >
-							</div>
-
-							<div class="carousel-item">
-								<img src="assets/img/teclado.jpg" class="d-block w-100" alt="Teclado" >
-							</div>
-
-							<div class="carousel-item">
-								<img src="assets/img/mouse.jpg" class="d-block w-100" alt="Mouse">
-							</div>
-
-							</div>
-							<button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-								<span class="visually-hidden">Previous</span>
-							</button>
-							<button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-								<span class="carousel-control-next-icon" aria-hidden="true"></span>
-								<span class="visually-hidden">Next</span>
-							</button>
+				<div class="col-sm-12">
+				<!--agregamos carrusel para galería de imágenes-->
+				<div id="carouselExample" class="carousel slide carrusel">
+					<div class="carousel-inner">
+						<!--"active" es la clase con la que queremos empezar el carrusel-->
+						<div class="carousel-item active">
+							<img src="assets/img/desktop.jpg" class="d-block w-100" alt="Desktop">
 						</div>
-					</div>
+
+						<div class="carousel-item">
+							<img src="assets/img/ssd m2.jpg" class="d-block w-100" alt="SSD" >
+						</div>
+
+						<div class="carousel-item">
+							<img src="assets/img/teclado.jpg" class="d-block w-100" alt="Teclado" >
+						</div>
+
+						<div class="carousel-item">
+							<img src="assets/img/mouse.jpg" class="d-block w-100" alt="Mouse">
+						</div>
+					</div>		
+
+					<!--se agrega botón de "anterior" y "siguiente" al carrusel-->
+					<button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Previous</span>
+					</button>
+					
+					<button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Next</span>
+					</button>
+				</div>
+				</div>
 				</div>
 			</div>
 
-
+		<!--cierre de contenido principal-->
 		</main>
 
+		<!--apertura de footer-->
 		<footer>
-			<!-- <div class="container"></div> -->
 			<h4>Integrantes:</h4>
 			<ul>
-				<!--Lista no ordenada-->
+				<!--Se establece lista no ordenada con integrantes del grupo-->
 				<li>Enzo Rojas</li>
 				<li>Damaris Morales</li>
 				<li>José Badilla</li>
@@ -135,7 +136,11 @@
 				<li>Carolaine Peralta</li>
 			</ul>
 			<p class="d-flex justify-content-center align-items-center">Te lo vendo &copy; 2023</p>
+		<!--cierre del footer-->
 		</footer>
+		
+
+		<!--se vincula bootstrap en version minimizada-->
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
 			integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous">
 		</script>

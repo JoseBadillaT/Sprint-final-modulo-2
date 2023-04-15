@@ -9,20 +9,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stock En Tienda</title>
+    <!-- se integran estilos de bootstrap y css al documento-->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/dataTables.bootstrap5.min.css">
 </head>
 
+<!--se agrega una clase al body para integrar color principal al documento-->
 <body class="color">
-    <header class="header">
-        <div class="logo_img d-flex justify-content-center align-items-center">
-            <img class="img-fluid" src="assets/img/te_vendo.png" alt="imagen te lo vendo">
-        </div>
-        <h1 class="d-flex justify-content-center align-items-center">Venta de productos tecnológicos, a un sólo
-            click de distancia</h1>
+
+        <!--inicio del header-->
+        <header class="header">
+            <div class="logo_img d-flex justify-content-center align-items-center">
+                <img class="img-fluid" src="assets/img/te_vendo.png" alt="imagen te lo vendo">
+            </div>
+            <h1 class="d-flex justify-content-center align-items-center">Venta de productos tecnológicos, a un sólo
+                click de distancia</h1>
+        <!--cierre del header-->
     </header>
     
+
+    <!--se agrega un container cuyo contenido es el navbar-->
     <div class="container">
 
         <nav class="navbar navbar-expand-lg  bg-primary ">
@@ -49,8 +56,12 @@
                 </div>
             </div>
         </nav>
+
+        <!--se establece contenido principal-->
         <main>
+            <!-- se crea la tabla con estilos-->
             <table id="stock" class="table table-striped" style="width:100%">
+                <!--se establecen los títulos de la tabla-->
                 <thead>
                     <tr class="prueba">
                         <th>Producto</th>
@@ -60,6 +71,7 @@
                         <th>Disponibilidad</th>
                     </tr>
                 </thead>
+                <!--se establece el cuerpo de la taba con los contenidos-->
                 <tbody class="prueba2">
                     <tr>
                         <td>Laptop</td>
@@ -215,22 +227,24 @@
                         <td>5.790</td>
                         <td>En stock</td>
                     </tr>
-    
+                <!--cierre del cuerpo de la tabla-->
                 </tbody>
-
+            <!--cierre de la tabla-->
             </table>
         </main>
-
+        <!--se agrega footer-->
         <footer>
             <p class="d-flex justify-content-center align-items-center">Te lo vendo &copy; 2023</p>
         </footer>
-            
-|   <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
-<script src="https://cdn.datatables.net/v/bs5/dt-1.13.4/r-2.4.1/datatables.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
-integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous">
-</script>
-        <script defer src="assets/js/datatables.js"></script>
+    
+    <!--integración de script de jquery/datatables/bootstrap/javascript-->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script src="https://cdn.datatables.net/v/bs5/dt-1.13.4/r-2.4.1/datatables.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous">
+    </script>
+    <script defer src="assets/js/datatables.js"></script>
+<!--cierre del body-->
 </body>
 
 </html>
