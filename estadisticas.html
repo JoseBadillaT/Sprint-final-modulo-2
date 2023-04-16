@@ -3,6 +3,7 @@
 <!-- Etiqueta que indica que lo que viene a continuación es un documento HTML-->
 <html lang="en">
 <!--Inicio de bloque de cabecera-->
+
 <head>
     <!--Meta con atributo charset, se define el tipo de lenguaje a utilizar-->
     <meta charset="UTF-8" />
@@ -13,10 +14,11 @@
     <!--Etiqueta description: nos entrega la descripción de la página-->
     <meta name="description" content="La empresa Te lo Vendo es un emprendimiento dedicado a la venta de productos
              a través de canales en línea, como el teléfono, correo electrónico y próximamente un sitio web." />
-    <!--Etiqueta keywords: da a conocer las palabras claves de la página-->         
+    <!--Etiqueta keywords: da a conocer las palabras claves de la página-->
     <meta name="keywords" content="venta en línea, comercio electrónico">
     <!-- Título de la página-->
     <title>Productos</title>
+    <!--Vinculamos e importamos fuentes de google para darle formato a nuestro texto de la página-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Neucha&display=swap" rel="stylesheet">
@@ -24,10 +26,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <!--Vinculamos nuestros estilos, hacia CSS-->
-    <link href="assets/css/style.css" rel="stylesheet"/>
+    <link href="assets/css/style.css" rel="stylesheet" />
 </head>
 <!--Cierre del bloque de cabecera-->
 <!--Inicio del cuerpo de la página-->
+
 <body class="bg-primary-subtle">
     <!--Iniciamos el Header-->
     <header class="header">
@@ -39,7 +42,7 @@
             click de distancia</h1>
     </header>
     <!--Cerramos el Header-->
-    <!--se agrega un container cuyo contenido es el navbar-->
+    <!--Insertamos NavBar mediante Bootstrap, estableciendo los links de las páginas-->
     <div class="container" style="font-family:'Neucha', cursive;">
 
         <nav class="navbar navbar-expand-lg bg-primary ">
@@ -237,7 +240,7 @@
                         <td>5.790</td>
                         <td>En stock</td>
                     </tr>
-                <!--cierre del cuerpo de la tabla-->
+                    <!--cierre del cuerpo de la tabla-->
                 </tbody>
             </table>
             <!--cierre de la tabla-->
@@ -248,16 +251,19 @@
             <p class="d-flex justify-content-center align-items-center">Te lo vendo &copy; 2023</p>
         </footer>
         <!--Iniciamos nuestro pie de página-->
-    <!--Insertamos y vinculamos archivo Jquery desde CDN-->
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
-    <!--Insertamos y vinculamos archivo DataTables desde CDN-->
-    <script src="https://cdn.datatables.net/v/bs5/dt-1.13.4/r-2.4.1/datatables.min.js"></script>
-    <!--Insertamos y vinculamos archivo Bootstrap desde CDN-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
-    <!--Insertamos y vinculamos archivo JavaScript-->
-    <script defer src="assets/js/datatables.js"></script>
+        <!--Insertamos y vinculamos archivo Jquery desde CDN-->
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+            integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+        <!--Insertamos y vinculamos archivo DataTables desde CDN-->
+        <script src="https://cdn.datatables.net/v/bs5/dt-1.13.4/r-2.4.1/datatables.min.js"></script>
+        <!--Insertamos y vinculamos archivo Bootstrap desde CDN-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+            crossorigin="anonymous"></script>
+        <!--Insertamos y vinculamos archivo JavaScript-->
+        <script defer src="assets/js/datatables.js"></script>
 </body>
 <!--cierre del body-->
+
 </html>
 <!--Cierre de etiqueta html-->
