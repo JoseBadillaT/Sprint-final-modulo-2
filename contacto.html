@@ -3,69 +3,71 @@
 <!-- Etiqueta que indica que lo que viene a continuación es un documento HTML-->
 <html lang="en">
 <!--Inicio de bloque de cabecera-->
+
 <head>
-    <!--Meta con atributo charset, se define el tipo de lenguaje a utilizar-->
-    <meta charset="UTF-8" />
-    <!--Etiqueta meta de http-equiv retrocompatibilidad para Explorer, ya deprecada-->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <!--Etiqueta viewport: detecta el ancho de los distintos dispositivos, resulta importante para el trabajo responsivo-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--Etiqueta description: nos entrega la descripción de la página-->
-    <meta name="description" content="La empresa Te lo Vendo es un emprendimiento dedicado a la venta de productos
+  <!--Meta con atributo charset, se define el tipo de lenguaje a utilizar-->
+  <meta charset="UTF-8" />
+  <!--Etiqueta meta de http-equiv retrocompatibilidad para Explorer, ya deprecada-->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!--Etiqueta viewport: detecta el ancho de los distintos dispositivos, resulta importante para el trabajo responsivo-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--Etiqueta description: nos entrega la descripción de la página-->
+  <meta name="description" content="La empresa Te lo Vendo es un emprendimiento dedicado a la venta de productos
              a través de canales en línea, como el teléfono, correo electrónico y próximamente un sitio web." />
-    <!--Etiqueta keywords: da a conocer las palabras claves de la página-->         
-    <meta name="keywords" content="venta en línea, comercio electrónico">
-    <!-- Título de la página-->
-    <title>Contacto</title>
-    <!--Vinculamos e importamos fuentes de google para darle formato a nuestro texto de la página-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Neucha&display=swap" rel="stylesheet">
-    <!--Vinculamos Bootstrap-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
-    <!--Vinculamos nuestros estilos, hacia CSS-->
-    <link href="assets/css/style.css" rel="stylesheet" />
+  <!--Etiqueta keywords: da a conocer las palabras claves de la página-->
+  <meta name="keywords" content="venta en línea, comercio electrónico">
+  <!-- Título de la página-->
+  <title>Contacto</title>
+  <!--Vinculamos e importamos fuentes de google para darle formato a nuestro texto de la página-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Neucha&display=swap" rel="stylesheet">
+  <!--Vinculamos Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <!--Vinculamos nuestros estilos, hacia CSS-->
+  <link href="assets/css/style.css" rel="stylesheet" />
 </head>
 <!--Cierre del bloque de cabecera-->
 <!--Inicio del cuerpo de la página-->
+
 <body class="bg-primary-subtle">
-    <!--Iniciamos el Header-->
-    <header class="header">
-        <div class="logo_img d-flex justify-content-center align-items-center">
-            <!--A una imagen que contiene el Logo de nuestra página-->
-            <img class="img-fluid" src="assets/img/te_vendo.png" alt="imagen te lo vendo">
-        </div>
-        <h1 class="d-flex justify-content-center text-bg-secondary mb-4">Venta de productos tecnológicos, a un sólo
-            click de distancia</h1>
-    </header>
-    <!--Cerramos el Header-->
-    <!--Insertamos NavBar mediante Bootstrap, estableciendo los links de las páginas-->
+  <!--Iniciamos el Header-->
+  <header class="header">
+    <div class="logo_img d-flex justify-content-center align-items-center">
+      <!--A una imagen que contiene el Logo de nuestra página-->
+      <img class="img-fluid" src="assets/img/te_vendo.png" alt="imagen te lo vendo">
+    </div>
+    <h1 class="d-flex justify-content-center text-bg-secondary mb-4">Venta de productos tecnológicos, a un sólo
+      click de distancia</h1>
+  </header>
+  <!--Cerramos el Header-->
+  <!--Insertamos NavBar mediante Bootstrap, estableciendo los links de las páginas-->
   <div class="container mb-3">
     <nav class="navbar navbar-expand-lg  bg-primary ">
       <div class="container-fluid">
         <a class="nav-link active text-white" aria-current="page" href="index.html" target="_self">Inicio</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active text-white" aria-current="page" href="pedidos.html">Pedidos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active text-white" href="seguimiento.html">Seguimiento</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active text-white" href="estadisticas.html">Productos</a>
-              </li>
-            </ul>
-          </div>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="pedidos.html">Pedidos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-white" href="seguimiento.html">Seguimiento</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-white" href="estadisticas.html">Productos</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
   </div>
-<!--Se envuelve el contenido principal de la página y se sub-crea un container con los ítems del formulario de contacto-->
+  <!--Se envuelve el contenido principal de la página y se sub-crea un container con los ítems del formulario de contacto-->
   <main>
     <div class="container pyd-md-flex mb-sm-5">
       <h2 class="d-flex justify-content-xxl-start align-items-center">Formulario de Contacto</h2>
@@ -89,21 +91,23 @@
       </form>
     </div>
   </main>
-<!--cierre del contenido principal-->
+  <!--cierre del contenido principal-->
 
-<!--Iniciamos nuestro pie de página-->
+  <!--Iniciamos nuestro pie de página-->
   <footer class="d-flex justify-content-center text-bg-secondary mb-0">
-      <p class="d-flex justify-content-center align-items-center py-3">Te lo vendo &copy; 2023</p>
+    <p class="d-flex justify-content-center align-items-center py-3">Te lo vendo &copy; 2023</p>
   </footer>
-<!--Cerramos nuestro pie de página-->
+  <!--Cerramos nuestro pie de página-->
 
-<!--Insertamos el script para la vinculación de Bootstrap desde CDN-->
+  <!--Insertamos el script para la vinculación de Bootstrap desde CDN-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
-              integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
-  
+    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+    crossorigin="anonymous"></script>
+
   <!--Se vincula a archivo JavaScript-->
-  <script defer src="assets/js/funciones.js"></script> 
+  <script defer src="assets/js/funciones.js"></script>
 </body>
 <!--Cerramos el body-->
+
 </html>
 <!--Cierre de etiqueta html-->
